@@ -1,5 +1,7 @@
 
 
+
+
 @media (max-width: 991px){
     .navigation {
         position: absolute;
@@ -39,6 +41,7 @@
 
     .hero-content{
         margin-top: 80px;
+        
     }
 
     .copyright-text{
@@ -63,6 +66,37 @@
     }
 }
 
+
+
+@media (min-height: 990px){
+    .hero-sec{
+        height: 100vh;
+        padding-bottom: 50px;
+    }
+
+    .copyright-text{
+        bottom: 30px;
+    }
+}
+
+@media (max-height: 770px){
+    .hero-sec{
+        height: 100%;
+        padding-bottom: 200px;
+    }
+
+    .copyright-text{
+        bottom: -47%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1199px){
+    .copyright-text{
+        bottom: -35%;
+    }
+}
+
 @media (max-width: 486px){
     .hero-img img.img-fluid.star-img{
         width: 52px;
@@ -81,7 +115,7 @@
 
     .copyright-text{
         font-size: 12px;
-        bottom: -38%;
+        bottom: -5%;
         width: 100%;
         text-align: center;
     }
